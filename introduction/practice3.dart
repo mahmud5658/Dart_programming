@@ -1,6 +1,6 @@
 bool checkEven(n) {
 
-  /// return true if n is even
+  /// return true if n is even...this is the documentation
   if (n % 2 == 0) {
     return true;
   } else {

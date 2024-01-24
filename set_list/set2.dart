@@ -9,4 +9,6 @@ void main() {
       "Intersection of two sets is ${fruits1.intersection(fruits2).intersection(name)}");
   // Difference of two set
   print("Difference of two sets is ${fruits1.difference(fruits2)}");
+
+  fruits1.length;
 }

@@ -7,4 +7,6 @@ void main() {
   print(doubledList);
 
   numbers.forEach((element) => print(element));
+
+  print(numbers.contains(10));
 }

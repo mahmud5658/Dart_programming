@@ -1,10 +1,12 @@
-import 'practice7.dart';
+import 'practice8.dart';
 
 void main() {
-  Student s = new Student();
+  Book b = Book('C_Programming', 500);
 
-  s.name = 'Abdullah Al Mahmud';
-  s.id = '221-15-5658';
-  print(s.name);
-  print(s.id);
+  print(b.name);
+  print(b.price);
+
+  Book b2 = Book('', 1000);
+  print(b2.name);
+  print(b2.price);
 }

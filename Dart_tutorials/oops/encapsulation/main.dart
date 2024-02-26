@@ -1,13 +1,10 @@
-import 'practice6.dart';
+import 'practice7.dart';
 
 void main() {
-  Student s1 = Student('Abdullah Al Mahmud', 5658);
-  s1.display();
+  Student s = new Student();
 
-  s1.setName('Rakibul Hassan Akash');
-  s1.setId(5688);
-  s1.display();
-
-  print(s1.getName());
-  print(s1.getId());
+  s.name = 'Abdullah Al Mahmud';
+  s.id = '221-15-5658';
+  print(s.name);
+  print(s.id);
 }
